@@ -1,0 +1,31 @@
+<div class="flexwrapper">
+    <div class="wrapper">
+        <div class="list-container">
+            <ul>
+                {{#each todos}}
+                    {{#if done}}
+                        <li class="done-todo"><a href="/todos/{{_id}}/done"><i
+                                    class="bi bi-check-circle-fill"
+                                ></i></a><a
+                                href="/todos/{{_id}}"
+                                class="a-style"
+                            >{{title}}</a><div
+                                class="created"
+                            >{{created}}</div></li>
+                    {{else}}
+                        <li class="undone-todo"><a href="/todos/{{_id}}/done"><i
+                                    class="bi bi-check-circle"
+                                ></i></a><a
+                                href="/todos/{{_id}}"
+                                class="a-style"
+                            >{{title}}</a><div
+                                class="created"
+                            >{{created}}</div></li>
+                    {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+
+        <a href="/todos/create"><button class="the-button">New</button></a>
+    </div>
+</div>

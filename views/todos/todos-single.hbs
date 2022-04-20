@@ -1,0 +1,28 @@
+<div class="flexwrapper">
+    <div class="wrapper">
+        <form action="/todos/{{_id}}" method="post" class="the-form">
+            <div class="input-container">
+                <input
+                    type="text"
+                    name="title"
+                    id=""
+                    value="{{title}}"
+                    class="input-class"
+                />
+            </div>
+            <div class="button-container">
+                <a href="/todos/{{_id}}/delete"><div
+                        class="the-button"
+                        id="btn-id"
+                    >Delete</div></a>
+                <input type="submit" class="the-button" value="Save" />
+            </div>
+        </form>
+
+        {{!-- <form action="/todos/{{_id}}/delete" class="the-form">
+            <div class="button-container">
+                <input type="submit" value="Delete" class="the-button" />
+            </div>
+        </form> --}}
+    </div>
+</div>

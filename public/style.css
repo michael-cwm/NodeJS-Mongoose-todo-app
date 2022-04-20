@@ -1,0 +1,161 @@
+body {
+    text-align: center;
+    margin: 5 auto;
+    background-color: #2a2438;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formflexer {
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 20vh;
+    margin-bottom: 10px;
+}
+
+.bi.bi-house-door,
+.bi.bi-house-fill {
+    font-size: 30pt;
+    transition: color 0.1s ease-in;
+}
+
+.bi.bi-house-door:hover,
+.bi.bi-house-fill:hover {
+    color: #9b9b9b;
+}
+
+.flexwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 30px;
+    background-color: #5c5470;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+a {
+    /* color: white; */
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+
+.the-form {
+    width: 100%;
+    display: inline;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-class,
+li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #2a2438;
+    border-radius: 30px;
+    margin: 10px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.input-container input {
+    width: 85%;
+    border: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.done-todo {
+    text-decoration: line-through;
+}
+
+.the-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    font-size: 16pt;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(63, 175, 138);
+    transition: background-color 0.1s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#btn-id {
+    background-color: rgb(204, 89, 89);
+    transition: background-color 0.1s ease-in;
+    color: black;
+}
+
+#btn-id:hover {
+    background-color: rgb(236, 96, 96);
+}
+
+.the-button:hover {
+    background-color: rgba(68, 248, 188, 0.829);
+    cursor: pointer;
+}
+
+.input-class {
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.a-style {
+    min-width: 50%;
+    display: flex;
+}
+
+.created {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
